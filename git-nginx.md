@@ -67,8 +67,24 @@ git push -u origin --tags
 
 github
 
+…or create a new repository on the command line
+
 ```
-git remote add origin https://github.com/user/repo.git
+echo "# Experience" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/redisread/Experience.git
+git push -u origin main
+```
+
+…or push an existing repository from the command line
+
+```
+git remote add origin https://github.com/redisread/Experience.git
+git branch -M main
+git push -u origin main
 ```
 
 
