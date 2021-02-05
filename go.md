@@ -1,5 +1,11 @@
 ### Go
 
+参考：[优质外文翻译 | Go 技术论坛](https://learnku.com/go/c/translations?page=2)
+
+
+
+
+
 ![go](https://i.loli.net/2021/02/04/2Sz5l1m3NnQWywG.jpg)
 
 [Go 国内加速镜像](https://learnku.com/go/wikis/38122)
