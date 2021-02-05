@@ -172,6 +172,27 @@ nginx -t
 
 
 
+#### 访问文件树
+
+使用autoindex关键字
+
+```nginx
+    server {
+        listen       8090;
+        server_name  jiahongw.com www.jiahongw.com;
+
+        location / {
+            root /mnt/;
+            autoindex on;
+           #index  index.html index.htm;
+        }
+    }
+```
+
+
+
+![image-20210205141227372](git-nginx.assets/image-20210205141227372.png)
+
 
 
 
