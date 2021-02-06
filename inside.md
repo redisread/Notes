@@ -6,6 +6,10 @@
 
 [关于简历：怎样才叫熟悉/精通Linux？_Machine Learning with Turing's Cat-CSDN博客](https://blog.csdn.net/qq_39521554/article/details/79534090)
 
+[explainshell.com - match command-line arguments to their help text](https://explainshell.com/)
+
+[the-art-of-command-line/README-zh.md at master · jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md#%E6%96%87%E4%BB%B6%E5%8F%8A%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86)
+
 - 掌握至少50个以上的常用命令（包括grep、awk、sed、ps、find等等吧，熟练使用，基础的选项不用man）
 
 - 掌握.tgz、.rpm等软件包的常用安装方法
@@ -52,6 +56,7 @@ gdb的使用
 
 
 
+### 文件系统
 
 
 
@@ -60,9 +65,6 @@ gdb的使用
 
 
 
-
-
-文件系统
 
 
 
