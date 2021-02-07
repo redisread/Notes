@@ -197,3 +197,58 @@ nginx -t
 
 
 
+### Action
+
+[GitHub Actions 入门教程 - P3TERX ZONE](https://p3terx.com/archives/github-actions-started-tutorial.html)
+
+必须将工作流程文件存储在仓库的 `.github/workflows` 目录中。
+
+![图片1](git-nginx.assets/YamlExample1.png)
+
+**空格/缩进**
+
+例如，这是正确的：
+
+```
+Key: Value
+```
+
+但这将失败：
+
+```
+Key:Value
+```
+
+   ^^冒号后没有空格！
+
+
+
+**Env**
+
+Env定义了环境变量的映射，这些变量可用于工作流中的所有作业和步骤。您还可以设置仅对作业或步骤可用的环境变量。
+
+
+
+
+
+部署自己的服务器
+
+[使用 GitHub Actions 实现博客自动化部署 | Frost's Blog](https://frostming.com/2020/04-26/github-actions-deploy/)
+
+
+
+
+
+SSH 远程执行任务
+
+[SSH 远程执行任务 - sparkdev - 博客园](https://www.cnblogs.com/sparkdev/p/6842805.html)
+
+[静态网站生成工具-Hugo | 小木](https://xinxiamu.github.io/2020/06/29/hugo-start/)
+
+
+
+```
+git_build
+
+```
+
