@@ -184,9 +184,31 @@
     locate libc.a
     ```
 
-21. 
+    1. top命令详解
 
+    [top命令介绍_鲲鹏论坛_华为云论坛](https://bbs.huaweicloud.com/forum/thread-106249-1-1.html)
 
+21. Linux下复制粘贴快捷键
+
+    [Linux下复制粘贴快捷键 - 简书](https://www.jianshu.com/p/ece80a1cbabf)
+    
+22. 如何查看端口是否被占用？
+
+    1. 使用`netstat`:
+
+       ```shell
+       netstat anp | grep 80
+       ```
+
+    2. 使用`lsof`:
+
+       ```shell
+       lsof -i:80
+       ```
+
+    
+
+23. xargs使用方法
 
 
 
