@@ -63,6 +63,7 @@ class obj(object):
 参考：
 
 1. [argparse模块用法实例详解](https://zhuanlan.zhihu.com/p/56922793)
+2. [Python 命令行之旅：深入 argparse（二） - 削微寒 - 博客园](https://www.cnblogs.com/xueweihan/p/11415703.html)
 
 创建ArgumentParser 对象解释器
 
@@ -74,6 +75,12 @@ parser = argparse.ArgumentParser(
 [Python argparse：如何在帮助文本中插入换行符？ - ITranslater](https://www.itranslater.com/qa/details/2112192355905307648)
 
 [python---argparse 解析 bool 值 | Python 技术论坛](https://learnku.com/articles/44443)
+
+常用功能：
+
+- 子命令
+
+
 
 
 

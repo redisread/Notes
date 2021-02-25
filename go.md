@@ -148,7 +148,15 @@ func main() {
 变量的地址: 4000086010
 ```
 
+**传递数组指针**
 
+在传参的时候避免数组的拷贝，传切片也是类似的
+
+```go
+func test(x *[2]int) {
+	...
+}
+```
 
 **指针的声明**
 
@@ -429,6 +437,56 @@ Go语言的类型或结构体没有构造函数的功能，但是我们可以使
 
 
 
+
+
+### 深入使用
+
+#### 闭包
+
+```go
+package main
+import "fmt"
+
+func outerFunc() {
+    a := 1
+    // innerFunc := func innerFuncTest(b int) int { //error
+    innerFunc := func (b int) int {
+        a = 2
+        return a + b
+    }
+    fmt.Printf("ans:%d, a:%d", innerFunc(3), a) //ans:5, a:2
+}
+
+func main(){
+    outerFunc()
+}
+```
+
+
+
+
+
+#### channel
+
+参考：[总结了才知道，原来channel有这么多用法！ - SegmentFault 思否](https://segmentfault.com/a/1190000017958702)
+
+
+
+
+
+**使用场景**
+
+把channel用在**数据流动的地方**：
+
+1. 消息传递、消息过滤
+2. 信号广播
+3. 事件订阅与广播
+4. 请求、响应转发
+5. 任务分发
+6. 结果汇总
+7. 并发控制
+8. 同步与异步
+
 ### 相关结构
 
 
@@ -437,9 +495,30 @@ Go语言的类型或结构体没有构造函数的功能，但是我们可以使
 
 [深入解析 Go 中 Slice 底层实现](https://halfrost.com/go_slice/)
 
+声明二维数组,x和y必须是常量
+
+```go
+var arrayName [ x ][ y ] variable_type
+```
+
+[Go 二维切片初始化_jiang_mingyi的博客-CSDN博客_golang 二维数组 初始化](https://blog.csdn.net/jiang_mingyi/article/details/81567740)
+
+与C++类似的动态创建二维动态数组的方法类似。
+
+```go
+f := make([][]int, n)
+    for i := 0; i < len(matrix); i++ {
+        f[i] = make([]int, n)
+    }
+```
+
+
+
 #### map
 
 
+
+#### interface
 
 
 
@@ -486,6 +565,14 @@ import "sort"
 ```
 
 
+
+
+
+## Tips
+
+
+
+- go语言没有引用，但是有指针；可以使用指针达到引用的效果
 
 
 
