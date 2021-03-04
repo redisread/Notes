@@ -30,6 +30,10 @@ this_is_a_variable = 1
 
 
 
+## 模块
+
+### 导入模块
+
 
 
 ## 注释
@@ -53,6 +57,12 @@ class obj(object):
 ## 规范参考
 
 [Python PEP8 编码规范中文版_基因记忆-CSDN博客_pep8 python 编码规范](https://blog.csdn.net/ratsniper/article/details/78954852)
+
+
+
+### 参数传递方式
+
+[Python中参数传递方式 - 简书](https://www.jianshu.com/p/8d242b2b4f2e)
 
 
 

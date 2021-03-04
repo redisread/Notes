@@ -323,3 +323,29 @@
 2. `>G` 命令会增加从当前行到文档末尾处的缩进层级。
 3. 
 
+
+
+
+
+### Linux常用命令？
+
+- lsof
+- tree
+- ps
+- top
+- df -h
+- debugfs -h
+- gdb
+- pstack
+- scp
+- wget
+- 
+
+
+
+
+
+
+
+
+
