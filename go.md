@@ -133,7 +133,7 @@ const const_name [data_type] = fixed_value
 
 ### 指针
 
-![img](go/RtdOYak2DG.png!large)
+![img](https://raw.githubusercontent.com/redisread/Image/master/WindowsRtdOYak2DG.png!large)
 
 Go 语言的取地址符是 &，放到一个变量前使用就会返回相应变量的内存地址。没有->操作符号。
 

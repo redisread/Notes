@@ -30,7 +30,7 @@ file filename
 gdb -tui
 ```
 
-![带画面的调试](gdb.assets/image-20210225155627905.png)
+![带画面的调试](https://raw.githubusercontent.com/redisread/Image/master/Windowsimage-20210225155627905.png)
 
 对运行的程序进行调试
 
@@ -96,7 +96,7 @@ b 49
 
 在49行会出现断点标志
 
-![打断点](gdb.assets/image-20210225160919735.png)
+![打断点](https://raw.githubusercontent.com/redisread/Image/master/Windowsimage-20210225160919735.png)
 
 
 
@@ -110,7 +110,7 @@ info b 或者 i b 或者 info break
 
 Disp为keep的表示为普通断点，为del的则为临时断点，Enb是断点是否有效，y为有效，无效为n
 
-![查看断点](gdb.assets/image-20210225161325443.png)
+![查看断点](https://raw.githubusercontent.com/redisread/Image/master/Windowsimage-20210225161325443.png)
 
 
 
@@ -198,7 +198,7 @@ finish
 p[print] something
 ```
 
-![打印参数](gdb.assets/image-20210225162209266.png)
+![打印参数](https://raw.githubusercontent.com/redisread/Image/master/Windowsimage-20210225162209266.png)
 
 
 
@@ -220,7 +220,7 @@ watch 表达式
 info function
 ```
 
-![查询函数信息](gdb.assets/image-20210225165051034.png)
+![查询函数信息](https://raw.githubusercontent.com/redisread/Image/master/Windowsimage-20210225165051034.png)
 
 
 
@@ -230,7 +230,7 @@ target可以是变量或者函数，查询变量的类型或者函数的声明
 whatis target
 ```
 
-![查询变量](gdb.assets/image-20210225165351171.png)
+![查询变量](https://raw.githubusercontent.com/redisread/Image/master/Windowsimage-20210225165351171.png)
 
 frame n：移动到指定的栈帧，并打印栈的信息，n为帧编号，如果不指定n，打印当前栈的信息；
 
@@ -245,7 +245,7 @@ frame n：移动到指定的栈帧，并打印栈的信息，n为帧编号，如
 
 - where/bt ：当前运行的堆栈列表；
 
-  ![当前的调用栈](gdb.assets/image-20210225165736089.png)
+  ![当前的调用栈](https://raw.githubusercontent.com/redisread/Image/master/Windowsimage-20210225165736089.png)
 
 - bt backtrace 显示当前调用堆栈
 

@@ -248,7 +248,7 @@
 
 5. 撤销操作！
 
-   ![撤销](Shell命令.assets/image-20210205144355450.png)
+   ![撤销](https://raw.githubusercontent.com/redisread/Image/master/Windowsimage-20210205144355450.png)
 
 6. 替换命令
 
@@ -270,9 +270,9 @@
 
   通过 `<C-p>` 与 `<C-n>` 这两个组合键，我们不仅可以在插入模式下触发 Vim 的自动补全，而且还可以用它们在补全列表中反向或正向选择。
 
-  ![image-20210205150031951](Shell命令.assets/image-20210205150031951.png)
+  ![image-20210205150031951](https://raw.githubusercontent.com/redisread/Image/master/Windowsimage-20210205150031951.png)
 
-  ![image-20210205150104587](Shell命令.assets/image-20210205150104587.png)
+  ![image-20210205150104587](https://raw.githubusercontent.com/redisread/Image/master/Windowsimage-20210205150104587.png)
 
 - 
 
